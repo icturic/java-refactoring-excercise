@@ -1,5 +1,8 @@
 package com.mcserby.training.refactoring;
 
+import lombok.Getter;
+
+@Getter
 public class Details {
 
     private String name = null;
@@ -11,19 +14,8 @@ public class Details {
         return this;
     }
 
-    public String getName() {
-        return name;
-    }
-
-
     public Details description(String description) {
         this.description = description;
         return this;
     }
-
-    public String getDescription() {
-        return description;
-    }
-
 }
-
