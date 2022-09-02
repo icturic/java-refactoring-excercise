@@ -1,5 +1,8 @@
 package com.mcserby.training.refactoring;
 
+import lombok.Getter;
+
+@Getter
 public class InternationalValues {
 
     private Details uk = null;
@@ -54,107 +57,4 @@ public class InternationalValues {
 
     private Details luFr = null;
 
-    public Details getUk() {
-        return uk;
-    }
-
-    public Details getNl() {
-        return nl;
-    }
-
-    public Details getDe() {
-        return de;
-    }
-
-    public Details getFr() {
-        return fr;
-    }
-
-    public Details getEs() {
-        return es;
-    }
-
-    public Details getIt() {
-        return it;
-    }
-
-    public Details getAt() {
-        return at;
-    }
-
-    public Details getChFr() {
-        return chFr;
-    }
-
-    public Details getChDe() {
-        return chDe;
-    }
-
-    public Details getRu() {
-        return ru;
-    }
-
-    public Details getHr() {
-        return hr;
-    }
-
-    public Details getGr() {
-        return gr;
-    }
-
-    public Details getSl() {
-        return sl;
-    }
-
-    public Details getChIt() {
-        return chIt;
-    }
-
-    public Details getBeFr() {
-        return beFr;
-    }
-
-    public Details getLuDe() {
-        return luDe;
-    }
-
-    public Details getLi() {
-        return li;
-    }
-
-    public Details getPl() {
-        return pl;
-    }
-
-    public Details getBl() {
-        return bl;
-    }
-
-    public Details getUa() {
-        return ua;
-    }
-
-    public Details getCz() {
-        return cz;
-    }
-
-    public Details getSv() {
-        return sv;
-    }
-
-    public Details getCaEs() {
-        return caEs;
-    }
-
-    public Details getZh() {
-        return zh;
-    }
-
-    public Details getBeNl() {
-        return beNl;
-    }
-
-    public Details getLuFr() {
-        return luFr;
-    }
 }
